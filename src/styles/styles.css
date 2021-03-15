@@ -1,0 +1,730 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+background-color: #000000;
+}
+
+.container2 {
+  min-height: 80vh;
+  padding: 0 0.0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  text-align: left;
+}
+
+
+.container3 {
+  min-height: 70vh;
+  max-height: 120;
+  max-width: 140vh;
+  padding: 5 5.0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  list-style-type: disc;
+  background-color: #000000;
+
+}
+
+
+
+.container2_sonax {
+  min-height: 80vh;
+  padding: 0 0.0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+
+
+.main {
+  padding: 3rem 0;
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.main2 {
+  padding: 25rem 250;
+  flex: 10;
+  display: flex;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: center;
+  float: none;
+  color: rgb(255, 255, 255);
+  border: 2px solid #e100ff;
+  flex-basis: 45%;
+  text-align: left;
+}
+
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 2px solid #63e0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00eeff;
+  font-style: normal;
+}
+
+.footer img {
+  margin-left: 2rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title a {
+  color: #01080f;
+  text-decoration: Bold;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 6rem;
+  font-style: italic;
+  font-weight: 900;
+  background-color: #ff0000;
+  Color: #ffffff
+}
+
+
+.title_mypolisher {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 4rem;
+  font-style: none;
+  font-weight: 500;
+  
+  Color: #ffffff
+}
+
+
+.title3_mypolisher {
+  margin: none;
+  line-height: 1;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 150;
+  background-color: none;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  Color: #7cff02 
+}
+
+.title2 {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center;
+
+  font-weight: 300;
+  margin-top: 3rem;
+  background-color: none;
+  Color: #00aeff
+}
+
+
+.title_sonax {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 4rem;
+  font-style: normal;
+  text-align: center;
+  Color: #ff0000
+}
+
+
+.title3 {
+  margin: 5;
+  line-height: 2;
+  font-size: 1.5rem;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  Color: #ff0000 
+}
+
+
+.title3_MT300 {
+  margin: 2;
+  line-height: 2;
+  font-size: 2rem;
+  font-style: normal;
+  text-align: left;
+  font-weight: 550;
+  Color: #fffb02 
+}
+
+
+
+.title3_T800 {
+  margin: 2;
+  line-height: 2;
+  font-size: 2rem;
+  font-style: normal;
+  text-align: left;
+  font-weight: 550;
+  Color: #02ccff 
+}
+
+
+
+
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 0.4;
+  font-size: 1.8rem;
+  Color: hsl(182, 92%, 48%)
+}
+
+.price {
+  line-height: 0.4;
+  font-size: 1.8rem;
+  Color: hsl(182, 92%, 48%)
+
+}
+
+
+.description2 {
+  line-height: 1.5;
+  font-size: 1.8rem;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  text-align-last: center;
+  Color: rgb(255, 0, 119)
+}
+
+
+
+.description2_rupes {
+  line-height: 1.5;
+  font-size: 1.8rem;
+  font-weight: 200;
+  font-style: bold;
+  letter-spacing: 0.1em;
+  text-align-last: center;
+  background-color: #ffffff;
+  font-weight: 500;
+  margin-top: 0.3rem;
+  margin-bottom: 4rem;
+  line-height: 2;
+  Color: rgb(0, 0, 0)
+}
+
+
+.description2_sonax {
+  line-height: 1.5;
+  font-size: 1.8rem;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-align-last: center;
+  Color: rgb(18, 197, 2)
+}
+
+
+
+.description2_MT300 {
+  line-height: 1.5;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-align-last: center;
+  Color: rgb(250, 246, 20)
+}
+
+
+
+.description2_T800 {
+  line-height: 1.5;
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-align-last: center;
+  Color: rgb(20, 235, 250)
+}
+
+
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 3rem;
+  
+}
+
+
+.grid2 {
+  display: flex;
+  justify-content: none;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 3rem;
+  margin-bottom: 3;
+  grid-auto-columns: auto;
+}
+
+
+.grid2_sonax {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  grid-auto-columns: auto;
+}
+
+
+.card2 {
+  margin: 1rem;
+  flex-basis: 30%;
+  padding: 2rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #e100ff;
+  border-radius: 5px;
+  vertical-align: middle;
+  transition: color 0.15s ease, border-color 0.15s ease;
+ 
+}
+
+
+.card2_chemical {
+  
+  flex-basis: 23%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 2rem;
+  
+  margin-left: 1rem;
+  justify-content: center;
+  transition: color 0.15s ease, border-color 0.15s ease;
+ 
+}
+
+
+
+.card3 {
+  margin: 1rem;
+  flex-basis: 40%;
+  max-width: 45%;
+  min-width: 45%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0px solid #e100ff;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(49, 50, 51); 
+  text-align-last: center;
+}
+
+
+
+.card3_MT300 {
+  margin: 1rem;
+  flex-basis: 40%;
+  max-width: 45%;
+  min-width: 45%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0px solid #e100ff;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(49, 50, 51); 
+  text-align-last: center;
+}
+
+
+
+
+.card3_T800 {
+  margin: 1rem;
+  flex-basis: 40%;
+  max-width: 45%;
+  min-width: 45%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #00f7ff;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(0, 0, 0); 
+  text-align-last: center;
+}
+
+
+
+.card3_gallery {
+  margin: 1rem;
+  flex-basis: 80%;
+  max-width: 85%;
+  min-width: 85%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0px solid #e100ff;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(49, 50, 51); 
+  text-align-last: center;
+}
+
+
+
+
+
+.card3_rupes {
+  margin: 1rem;
+  margin-left: 10rem;
+  max-width: 80%;
+  min-width: 45%;
+  padding: 3rem;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  border: 0px solid #e100ff;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(255, 255, 255); 
+  text-align-last: center;
+}
+
+
+.card3_rupes2 {
+  margin: 1rem;
+  margin-left: 10rem;
+  max-width: 80%;
+  min-width: 45%;
+  padding: 3rem;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  border: 0px solid #e100ff;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(255, 255, 255); 
+  text-align-last: center;
+}
+
+
+
+.card3_sonax {
+  margin: 1rem;
+  flex-basis: 50%;
+  max-width: 65%;
+  min-width: 20%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0px solid #15ff00;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(49, 50, 51); 
+
+}
+
+
+
+.card3_sonax_image_product {
+  margin: 1rem;
+  flex-basis: 20%;
+  max-width: 40%;
+  min-width: 20%;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px #00ff00;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(49, 50, 51); 
+}
+
+
+
+.card {
+  margin: 1rem;
+  
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #e100ff;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+
+.card_index{
+  margin: 1rem;
+  padding: 3rem;
+  color: #ffffff;
+  border: 2px solid #e100ff;
+  border-radius: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+
+.card_index:hover,
+.card_index:focus,
+.card_index:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+
+
+.card h3 {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+
+.logo {
+  height: 4em;
+}
+
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+
+.search {
+ border:-2;
+ border:-red, -500;
+}
+
+
+.button {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: #00e1ff;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(61, 0, 204);
+  font-weight: 600;
+  letter-spacing: 0.01; 
+}
+
+
+.button_sonax_main {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: #5eff00;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(65, 65, 66);
+  font-weight: 600;
+  letter-spacing: 0.01; 
+}
+
+
+.buttonprice {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(255, 0, 106);
+  font-weight: 600;
+}
+
+
+
+.buttonprice_card_chemical {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(75, 114, 126);
+  font-weight: 600;
+}
+
+
+
+.buttonprice2 {
+  margin: 4rem;
+  padding: 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(255, 0, 106);
+  font-weight: 600;
+}
+
+
+
+.buttonprice2_rupes {
+  margin: 4rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+
+
+.buttonprice2_sonax {
+  margin: 4rem;
+  padding: 1rem;
+  text-align: center;
+  color: #3cff00;
+  font-size: 25;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: rgb(108, 117, 128);
+  font-weight: 600;
+  
+}
+
+
+
+
+
+
+.logo{
+  color: rgb(20, 220, 220);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+div#myDiv{
+  width:120px;
+  height:100px;
+  background-image: url("D:\Documentos\Semeste 2021\Innovación\Proyecto 2 - copia\my-project\public\banner1 (1).jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+  }
+
+
+  
+hr.rounded {
+  border-top: 5px solid rgb(238, 255, 0);
+  border-radius: 50px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+
+/* Solid border */
+hr.solid {
+  border-top: 5px solid rgb(5, 226, 255);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.checked {
+  color: orange;
+}
